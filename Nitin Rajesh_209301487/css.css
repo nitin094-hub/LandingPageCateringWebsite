@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+/* Navigation bar */
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    height: auto;
+    
+}
+#logo{
+    
+    /* border: 2px solid black; */
+    flex-basis: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2rem ;
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+    margin-left: 33px;
+}
+#navig{
+    /* border: 2px solid black; */
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navig li{
+    margin: 0 24px;
+    list-style: none;
+}
+#navig li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+#navig li a:hover{
+    background-color: rgb(204, 197, 197);
+}
+/* section */
+#imageBurger{
+    background-image: url('https://www.w3schools.com/w3images/hamburger.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    font-size: 3rem;
+}
+.para h1{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+#imageBurger p{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin-left: 34px;
+}
+#catering{
+    display: flex;
+    /* border: 2px solid rebeccapurple; */
+    
+}
+.food{
+    /* border: 2px solid red; */
+    flex-basis: 50%;
+    height: 395px;
+    background-image: url('https://www.w3schools.com/w3images/tablesetting2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 176px;
+    margin-top: 71px;
+    margin-bottom: 64px;
+}
+.para{
+    
+    /* border: 2px solid red; */
+    flex-basis: 50%;
+    height: 395px;
+    text-align: center;
+    margin-right: 176px;
+    margin-top: 71px;
+    margin-bottom: 64px;
+    padding-top: 48px;
+    
+}
+
+#menuCard{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.menu{
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 2px solid black; */
+    flex-basis: 50%;
+    margin-top: 71px;
+    margin-left: 176px;
+    margin-bottom: 64px;
+    
+}
+.menu h1{text-align: center;}
+.image{
+    background-image: url('	https://www.w3schools.com/w3images/tablesetting.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 50%;
+    margin-right: 176px;
+    margin-top: 71px;
+    margin-bottom: 64px;
+    padding-top: 48px;
+}
+
+#contact{
+    /* border: 2px solid red; */
+    margin: 56px 169px;
+}
+#contact h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+#contact p{
+    text-align: center;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+form input{
+    width: 52%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    /* border: 2px solid rgb(53, 40, 40); */
+    margin-top: 2px;
+    /* border-radius: 13px; */
+}
+#txt{
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+    width: 52%;
+}
+.btn{
+    display: block;
+    /* margin-top: 9px; */
+    margin-top: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 230px;
+    margin: auto;
+}

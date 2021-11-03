@@ -1,0 +1,65 @@
+@media only screen and (max-width: 994px) {
+    .food{
+        margin-left: 0px;
+    }
+    .para{
+        margin-right: 0px;
+    }
+    .para p{
+
+        font-size: 17px;
+    }
+    .menu{
+        margin-left: 0px;
+    }
+    .menu p{
+        font-size: 21px;
+    }
+    .image{
+        margin-right: 0px;
+    }
+    #contact{
+        margin: 0;
+    }
+    #contact p{
+        
+        font-size: 21px;
+    }
+    form input{
+        width: 100%;
+    }
+    #txt{
+        
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 994px) {
+    #catering{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .para{
+        margin: 0;
+        flex-basis:100% ;
+    }
+    .food{
+        margin: 0;
+        flex-basis:100% ;
+    }
+    
+}
+@media only screen and (max-width: 519px) {
+    nav{
+        flex-direction: column;
+        
+    }
+    #logo{
+        font-size: 1.5rem;
+        margin: auto;
+    }
+    #navig{
+        padding-left: 0px;
+    }
+}
+
+
